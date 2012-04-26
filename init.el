@@ -79,8 +79,14 @@
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
-
-(require 'init-marmalade)
+  (require 'init-marmalade)
+  ;;----------------------------------------------------------------------------
+  ;; kevin add
+  ;;----------------------------------------------------------------------------
+(require 'init-yasnippet)  
+  
+;;kevin_finish  
+  
 (require 'init-misc)
 
 

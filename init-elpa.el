@@ -157,7 +157,9 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'textile-mode)
 (require-package 'darcsum)
 (require-package 'pretty-mode)
-
+;; kevim add
+(require-package 'yasnippet)
+;; kevim finish
 ;; I maintain this chunk:
 (require-package 'ac-slime)
 (require-package 'coffee-mode)
